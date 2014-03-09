@@ -9,10 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface HelloWorldAppDelegate : UIResponder <UIApplicationDelegate>
-{
-    UIWindow *window;
-    IBOutlet UILabel * lbl_;
-}
+
 @property(nonatomic,retain) IBOutlet UIWindow *window;
--(IBAction)click:(id)sender;
 @end
