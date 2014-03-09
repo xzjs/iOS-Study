@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		199B1C0018CC511B00C0FC00 /* AddressList.m in Sources */ = {isa = PBXBuildFile; fileRef = 199B1BFF18CC511B00C0FC00 /* AddressList.m */; };
+		199B1C0418CC55C700C0FC00 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 199B1C0318CC55C700C0FC00 /* 1.jpg */; };
 		19E6866B18CAF33F0000DA5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19E6866A18CAF33F0000DA5C /* Foundation.framework */; };
 		19E6866D18CAF33F0000DA5C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19E6866C18CAF33F0000DA5C /* CoreGraphics.framework */; };
 		19E6866F18CAF33F0000DA5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19E6866E18CAF33F0000DA5C /* UIKit.framework */; };
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		199B1BFE18CC511B00C0FC00 /* AddressList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressList.h; sourceTree = "<group>"; };
+		199B1BFF18CC511B00C0FC00 /* AddressList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressList.m; sourceTree = "<group>"; };
+		199B1C0318CC55C700C0FC00 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		19E6866718CAF33F0000DA5C /* HelloAplle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloAplle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19E6866A18CAF33F0000DA5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		19E6866C18CAF33F0000DA5C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -116,9 +121,12 @@
 				19E6867A18CAF33F0000DA5C /* HelloWorldAppDelegate.m */,
 				19E6867C18CAF33F0000DA5C /* Main.storyboard */,
 				19E6867F18CAF33F0000DA5C /* HelloWorldViewController.h */,
+				199B1C0318CC55C700C0FC00 /* 1.jpg */,
 				19E6868018CAF33F0000DA5C /* HelloWorldViewController.m */,
 				19E6868218CAF33F0000DA5C /* Images.xcassets */,
 				19E6867118CAF33F0000DA5C /* Supporting Files */,
+				199B1BFE18CC511B00C0FC00 /* AddressList.h */,
+				199B1BFF18CC511B00C0FC00 /* AddressList.m */,
 			);
 			path = HelloAplle;
 			sourceTree = "<group>";
@@ -230,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19E6868318CAF33F0000DA5C /* Images.xcassets in Resources */,
+				199B1C0418CC55C700C0FC00 /* 1.jpg in Resources */,
 				19E6867518CAF33F0000DA5C /* InfoPlist.strings in Resources */,
 				19E6867E18CAF33F0000DA5C /* Main.storyboard in Resources */,
 			);
@@ -252,6 +261,7 @@
 			files = (
 				19E6867B18CAF33F0000DA5C /* HelloWorldAppDelegate.m in Sources */,
 				19E6868118CAF33F0000DA5C /* HelloWorldViewController.m in Sources */,
+				199B1C0018CC511B00C0FC00 /* AddressList.m in Sources */,
 				19E6867718CAF33F0000DA5C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +471,7 @@
 				19E6869B18CAF33F0000DA5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19E6869C18CAF33F0000DA5C /* Build configuration list for PBXNativeTarget "HelloAplleTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +480,7 @@
 				19E6869E18CAF33F0000DA5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

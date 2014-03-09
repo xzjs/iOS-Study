@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HelloWorldViewController : UIViewController <UITextFieldDelegate>
-
-@property (copy,nonatomic) NSString *userName;
+@interface HelloWorldViewController : UIViewController <UITableViewDataSource,UITableViewDelegate>
 
 @end
